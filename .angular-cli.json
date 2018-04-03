@@ -78,7 +78,8 @@
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       },
-      "tags": []
+      "tags": [],
+      "baseHref": ""
     },
     {
       "name": "reports",
@@ -104,7 +105,8 @@
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       },
-      "tags": []
+      "tags": [],
+      "baseHref": ""
     },
     {
       "name": "splash-page",
@@ -112,7 +114,12 @@
       "outDir": "dist/apps/splash-page",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        {
+          "input": "../../../libs/login/src/assets",
+          "output": "./assets/",
+          "glob": "**/*"
+        }
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -130,7 +137,8 @@
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
       },
-      "tags": []
+      "tags": [],
+      "baseHref": ""
     },
     {
       "name": "login",
