@@ -13,11 +13,11 @@ import { RouterModule } from '@angular/router';
         {
           path: '',
           pathMatch: 'full',
-          redirectTo: 'foo'
+          redirectTo: 'login'
         },
         {
-          path: 'foo',
-          loadChildren: '@nx-experiments/foo#FooModule'
+          path: 'login',
+          loadChildren: '@nx-experiments/login#LoginModule'
         }
       ],
       { initialNavigation: 'enabled' }

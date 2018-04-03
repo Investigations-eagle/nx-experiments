@@ -8,7 +8,7 @@
     "**/*.ts"
     /* add all lazy-loaded libraries here: "../../../libs/my-lib/index.ts" */
 
-  , "../../../libs/foo/index.ts"
+  , "../../../libs/login/index.ts"
   ],
   "exclude": [
     "**/*.spec.ts"

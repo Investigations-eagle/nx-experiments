@@ -133,8 +133,8 @@
       "tags": []
     },
     {
-      "name": "foo",
-      "root": "libs/foo/src",
+      "name": "login",
+      "root": "libs/login/src",
       "test": "../../../test.js",
       "appRoot": "",
       "tags": []
