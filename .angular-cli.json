@@ -79,7 +79,7 @@
         "prod": "environments/environment.prod.ts"
       },
       "tags": [],
-      "baseHref": ""
+      "baseHref": "."
     },
     {
       "name": "reports",
@@ -106,7 +106,7 @@
         "prod": "environments/environment.prod.ts"
       },
       "tags": [],
-      "baseHref": ""
+      "baseHref": "."
     },
     {
       "name": "splash-page",
@@ -139,7 +139,7 @@
         "prod": "environments/environment.prod.ts"
       },
       "tags": [],
-      "baseHref": ""
+      "baseHref": "."
     },
     {
       "name": "login",
