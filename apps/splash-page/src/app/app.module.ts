@@ -19,11 +19,11 @@ import { SplashScreenComponent } from './splash-screen/splash-screen.component';
         },
         {
           path: 'login',
-          loadChildren: '@nx-experiments/login#LoginModule',
+          loadChildren: '@nx-experiments/login#LoginModule'
         },
         {
           path: 'apps-list',
-          component: AppsListComponent,
+          component: AppsListComponent
         }
       ],
       { initialNavigation: 'enabled' }

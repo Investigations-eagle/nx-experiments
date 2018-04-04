@@ -1,6 +1,6 @@
 const StaticServer = require('static-server');
 const server = new StaticServer({
-  rootPath: './dist/apps',
+  rootPath: './dist/apps/',
   port: 3000,               // required, the port to listen
   name: 'my-http-server',   // optional, will set "X-Powered-by" HTTP header
   host: 'localhost',       // optional, defaults to any interface

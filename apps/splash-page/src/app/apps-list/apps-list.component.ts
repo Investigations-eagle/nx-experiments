@@ -9,9 +9,7 @@ import config from '../../config';
 export class AppsListComponent implements OnInit {
   appsConfig = config;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

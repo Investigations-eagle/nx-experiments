@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { LoginComponent } from "@nx-experiments/login/src/login.component";
+import { LoginComponent } from '@nx-experiments/login/src/login.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 
@@ -11,9 +11,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     ReactiveFormsModule,
     RouterModule.forChild([
-      {path: '', pathMatch: 'full', component: LoginComponent}
+      { path: '', pathMatch: 'full', component: LoginComponent }
     ])
   ],
-  declarations: [LoginComponent],
+  declarations: [LoginComponent]
 })
 export class LoginModule {}

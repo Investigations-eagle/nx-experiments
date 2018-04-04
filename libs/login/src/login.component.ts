@@ -1,10 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import {
-  FormGroup,
-  Validators,
-  FormBuilder
-} from '@angular/forms';
+import { FormGroup, Validators, FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -50,7 +46,7 @@ export class LoginComponent {
     }
     this.isLoading = true;
 
-    this.router.navigate(['apps-list'])
+    this.router.navigate(['apps-list']);
   }
 
   resetSubmitted() {
