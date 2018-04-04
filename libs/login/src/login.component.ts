@@ -3,8 +3,7 @@ import { Router } from '@angular/router';
 import {
   FormGroup,
   Validators,
-  FormBuilder,
-  FormControlName
+  FormBuilder
 } from '@angular/forms';
 
 @Component({
@@ -50,6 +49,8 @@ export class LoginComponent {
       return;
     }
     this.isLoading = true;
+
+    this.router.navigate(['apps-list'])
   }
 
   resetSubmitted() {
